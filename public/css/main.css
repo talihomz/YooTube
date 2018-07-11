@@ -1,0 +1,22 @@
+body {
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media only screen and (min-width: 768px) {
+    .container {
+      width: 768px; } }
+  @media only screen and (min-width: 992px) {
+    .container {
+      width: 980px; } }
+  @media only screen and (min-width: 1200px) {
+    .container {
+      width: 1280px; } }
