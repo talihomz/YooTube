@@ -20,3 +20,29 @@ body {
   @media only screen and (min-width: 1200px) {
     .container {
       width: 1280px; } }
+
+nav {
+  height: 54px;
+  background: red; }
+
+#content {
+  display: flex; }
+  #content .video {
+    display: flex;
+    flex-direction: column;
+    width: 854px; }
+    #content .video .player {
+      height: 480px;
+      background: yellow; }
+    #content .video .details {
+      height: 66px;
+      background: blue; }
+    #content .video .info {
+      height: 172px;
+      background: pink; }
+    #content .video .comments {
+      background: orange;
+      min-height: 156px; }
+  #content .sidebar {
+    flex: 1;
+    background: green; }
