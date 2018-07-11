@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'general';
+
+nav {
+    height: 54px;
+    background: red;
+}
+
+#content {
+    display: flex;
+    .video {
+        display: flex;
+        flex-direction: column;
+        width: 854px;
+        .player {
+            height: 480px;
+            background: yellow;
+        }
+        .details {
+            height: 66px;
+            background: blue;
+        }
+        .info {
+            height: 172px;
+            background: pink;
+        }
+        .comments {
+            background: orange;
+            min-height: 156px;
+        }
+    }
+    .sidebar {
+        flex: 1;
+        background: green;
+    }
+}
